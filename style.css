@@ -8,3 +8,9 @@ html {
     color:var(--corletra)
 
 }
+
+.tulipa{
+    display: flex;
+    background-color: var(--corletra);
+    color: var(--cor);
+}
