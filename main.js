@@ -1,2 +1,2 @@
 alert('fuck fuck');
-prompt('Qual seu nome?')
+let nomeUsuario = prompt('Qual seu nome?');
