@@ -6,7 +6,7 @@ while(nomeUsuario == ""){
     nomeUsuario = prompt('Qual seu nome?');
 }
 
-if(nomeUsuario){
+if(nomeUsuario == null) {
     anterior.textContent = 'usuário';
 } else{
     anterior.textContent = nomeUsuario;
