@@ -9,6 +9,12 @@ html {
 
 }
 
+#texto{
+    color: red;
+}
+
+
+
 .tulipa{
     display: flex;
     background-color: var(--corletra);
