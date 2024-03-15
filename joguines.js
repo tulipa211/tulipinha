@@ -1,4 +1,4 @@
 let numeroSecreto = 9;
 
-prompt(oi, tudo bem);
+let chute = prompt('Escolha u número de 0 a 10');
 
