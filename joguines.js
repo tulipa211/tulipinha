@@ -1,6 +1,10 @@
 let numeroSecreto = 9;
 
-let chute = prompt('Escolha um número de 0 a 10');
+let chute = '';
+
+while(chute == ''){
+    chute = prompt('Escolha um número de 0 a 10');
+}
 
 if(numeroSecreto == chute){
     alert('Acertou, boaa');
