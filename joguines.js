@@ -8,7 +8,7 @@ while(chute == ''){
 
 if(numeroSecreto == chute){
     alert('Acertou, boaa');
-    console.log('Parabéns voê acerotou, you did it kid!!')    
+    console.log('Parabéns voê acertou, you did it kid!!')    
 } else{
     alert('Errado');
     console.log('separe aude, vc errou')
