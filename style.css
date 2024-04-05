@@ -31,3 +31,8 @@ html {
     padding: 20px;
     font-size: 18px;
 }
+
+.ativo{
+    background-color: darkgray;
+    color: white;
+}
