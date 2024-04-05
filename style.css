@@ -20,3 +20,8 @@ html {
     background-color: var(--corletra);
     color: var(--cor);
 }
+
+.contagem{
+    background-color: antiquewhite;
+    padding: 20px 0;
+}
