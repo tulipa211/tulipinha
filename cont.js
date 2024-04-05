@@ -6,4 +6,5 @@ console.log(x);
 botoes[x].onclick = function() {
 botoes[x].classList.add('ativo');
 }
+botoes[x].classList.remove('ativo')
 }
