@@ -1,15 +1,16 @@
 const botoes = document.querySelectorAll('.Objetivos');
 
 
-for (let x = 0; x<botoes.length; x++){
-console.log(x);
-botoes[x].onclick = function() {
-    for(let y = 0; y< botoes.length; y++){
-botoes[y].classList.remove('ativo');
+for(let x = 0; x< botoes.length; x++){
+    botoes[x].onclick = function(){
+        for(let y = 0; y<botoes.length; y++){
+            botoes[y].classList.remove('ativo');
+            textos[y].classList.rempve('ativa');
+        }
+        botoes[x].classList.add('ativo')
+        textos[x].classList.add('ativa')
+    }
 }
-botoes[x].classList.add('ativo')
-//botoes[x].classList.remove('ativo')
-}}
 
 const contadores = document.querySelectorAll('contador');
 let tempoAtual = new Date ();
