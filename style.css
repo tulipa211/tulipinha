@@ -36,3 +36,13 @@ html {
     background-color: rgb(221, 218, 33);
     color: rgb(26, 39, 219);
 }
+
+
+.aba-conteudo{
+display: none;
+}
+
+.ativa{
+    display: block;
+font-size: 20px;
+}
