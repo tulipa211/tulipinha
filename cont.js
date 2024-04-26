@@ -16,7 +16,9 @@ let tempoAtual = new Date ();
 let tempoObjetivo1 = new Date ('2024-04-28T23:59:99');
 let tempoFinal = tempoObjetivo1 - tempoAtual;
 
-let segundos = tempoFinal/1000; 
+let segundos = Math.floor(tempoFinal/1000); 
+let minutos = Math.floor(segundos/60);
+let horas = Math.floor(minutos/60);
+let dias = Math.floor(dias/24);
 
-
-contadores[0].textContent = segundos;
+contadores[0].textContent = dias + "dias" + horas + "horas" + minutos + "minutos" + minutos + "minutos" + segundos + "segundos";
