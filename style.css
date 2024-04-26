@@ -33,7 +33,6 @@ html {
 }
 
 .ativo{
-    border-bottom: 3px solid red;
     background-color: rgb(221, 218, 33);
     color: rgb(26, 39, 219);
 }
